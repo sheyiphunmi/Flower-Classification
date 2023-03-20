@@ -23,12 +23,12 @@ pip install -r requirements.txt
 There are several scripts in this project:
 
 * `arg_parse_train.py`: Defines the command line arguments for training the image classifier.
-* **arg_parse_predict.py**: Defines the command line arguments for making predictions with the image classifier.
-* **image_processing.py**: Contains functions for preprocessing images before feeding them into the `predict.py`.
-* **predict.py**: Loads a saved image classifier model and makes predictions on new images.
-* **predict_helper.py**: Contains functions used by `predict.py`.
-* **train.py**: Trains an image classifier on the flower dataset.
-* **train_helper.py**: Contains functions used by `train.py`
+* `arg_parse_predict.py`: Defines the command line arguments for making predictions with the image classifier.
+* `image_processing.py`: Contains functions for preprocessing images before feeding them into the `predict.py`.
+* `predict.py`: Loads a saved image classifier model and makes predictions on new images.
+* `predict_helper.py`: Contains functions used by `predict.py`.
+* `train.py`: Trains an image classifier on the flower dataset.
+* `train_helper.py`: Contains functions used by `train.py`
 
 To train the image classifier, run `train.py` with the following command:
 
@@ -46,7 +46,8 @@ python train.py flowers --arch <model_architecture> --learning_rate <learning_ra
 * `--epochs`: The number of epochs to train the model (Default: 15).
 * `--batch_size`: The batch size for training (Default: 64)
 
-`predict.py is used to make predictions on new images of flowers. You can run this script using the following command:
+
+To make predictions new images of flowers using the trained model, run the `predict.py` using the following command:
 
 ```
 python predict.py /path/to/image /path/to/checkpoint --top_k <number_of_top_predictions> --category_names <path_to_category_names> --gpu <use_gpu>
