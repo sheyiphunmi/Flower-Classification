@@ -1,6 +1,6 @@
 # Flower-Classification
 
-This project is an image classifier implemented in PyTorch that utilizes three different architectures: VGG16, AlexNet, and DenseNet121. It has been trained on a dataset of flower images with 102 different flower categories, enabling it to predict the class of a given flower image. A practical application of this image classifier is the ability to use the trained model for real-time flower identification through a smartphone camera. In addition, the project serves as the final project for [AI Programming with Python Nanodegree](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089), which demosntrates my proficiency in applying AI techniques.
+This project is an image classifier implemented in PyTorch that utilizes three different architectures: VGG16, AlexNet, and DenseNet121. It has been trained on a dataset of flower images with 102 different flower categories, enabling it to predict the class of a given flower image. A practical application of this image classifier is the ability to use the trained model for real-time flower identification through a smartphone camera. In addition, the project serves as the final project for [AI Programming with Python Nanodegree](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089), which demonstrates my proficiency in applying AI techniques.
 
 
 # Installation
